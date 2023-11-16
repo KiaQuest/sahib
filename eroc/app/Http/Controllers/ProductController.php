@@ -72,4 +72,8 @@ class ProductController extends Controller
     {
         //
     }
+    public function routes(product $product)
+    {
+        return view('routes');
+    }
 }

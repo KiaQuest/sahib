@@ -27,3 +27,4 @@ Route::get('/myProducts', [ProductController::class, 'show'])->name('myproducts'
 Route::get('/products2', [ProductController::class, 'create'])->name('create.product');
 Route::get('/update', [ProductController::class, 'update'])->name('update.product');
 Route::get('/update2', [ProductController::class, 'store'])->name('update.product.do');
+Route::get('/routes', [ProductController::class, 'routes'])->name('');
